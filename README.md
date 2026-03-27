@@ -1,2 +1,21 @@
-# web-nginx-demo
-Đây là hướng dẫn cơ bản triển khai web server cùng với nginx (Engine-X)
+# Nginx cơ bản
+
+## Cài đặt
+
+```bash
+sudo apt update
+sudo apt install nginx -y
+```
+
+## Kiểm tra
+
+```bash
+nginx -v
+```
+
+## Restart nginx
+
+```bash
+sudo systemctl restart nginx
+```
+
