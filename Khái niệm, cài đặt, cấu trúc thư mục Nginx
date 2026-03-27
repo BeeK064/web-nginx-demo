@@ -1,0 +1,20 @@
+#1 Nginx là gì?
+- Nginx = web server để:
++chạy website.
++làm reverse proxy.
++xử lý request.
+
+#2 Cài nginx:
+Cài nginx trên Ubuntu:
+B1: chạy "sudo apt update" (để cập nhật các cập nhật mới nhất của nginx)
+B2: chạy "sudo apt install nginx -y" (lệnh cài đặt nginx, "-y" để đồng ý tất cả các mục)
+B3: Sau khi cài, chạy "systemctl status nginx" để xem trạng thái kết nối nếu thấy dòng "active (running)" là ok
+B4: test trên trình duyệt, gõ theo định dạng http://IP-server (VD: http://192.168.1.10) nếu thấy "Welcome to nginx!" → thành công
+
+#3 Cấu trúc thư mục:
+-Web root:
++ /var/www/html
+-Config:
++ /etc/nginx
+/etc/nginx/sites-available/ chứa tất cả config (1 file= 1 website/1 domain)
+/etc/nginx/sites-enabled/ chứa config đang được bật
