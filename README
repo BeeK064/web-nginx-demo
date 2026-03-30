@@ -1,0 +1,19 @@
+1. Nginx là gì?
+
+Nginx là một web server dùng để:
+
+Host website (HTML, CSS, JS)
+Reverse Proxy (chạy NodeJS, backend)
+Load Balancer (cân bằng tải)
+
+Ưu điểm:
+
+Nhẹ, nhanh
+Chịu tải tốt
+Dễ cấu hình
+2. Cấu trúc hoạt động
+Client (Browser)
+       ↓
+    Nginx
+       ↓
+Website / Backend (NodeJS, PHP,...)
