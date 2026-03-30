@@ -69,7 +69,7 @@ Nội dung:
 6. Kiểm tra config
 ```sudo nginx -t```
 
-👉 Nếu hiện syntax is ok là chuẩn
+👉 Nếu hiện ```syntax is ok``` là chuẩn
 
 7. Reload Nginx
 ```sudo systemctl reload nginx```
