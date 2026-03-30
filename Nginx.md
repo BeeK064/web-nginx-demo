@@ -21,10 +21,10 @@ http://IP_SERVER
 
 📁 PHẦN 3: HIỂU CẤU TRÚC THƯ MỤC
 Thư mục quan trọng:
-/var/www/html → chứa web
-/etc/nginx/nginx.conf → config chính
-/etc/nginx/sites-available/ → config web
-/etc/nginx/sites-enabled/ → web đang chạy
+/var/www/html → chứa web <br>
+/etc/nginx/nginx.conf → config chính <br>
+/etc/nginx/sites-available/ → config web <br>
+/etc/nginx/sites-enabled/ → web đang chạy <br>
 🧪 PHẦN 4: SỬA WEB MẶC ĐỊNH
 1. Mở file HTML
 ```sudo nano /var/www/html/index.html```
