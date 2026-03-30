@@ -8,16 +8,16 @@
 
 👉 Nếu thấy active (running) là OK
 
-🌐 PHẦN 2: TRUY CẬP WEB
+🌐 PHẦN 2: TRUY CẬP WEB<br>
 Cách 1: Trên chính server
 ```curl localhost```
-Cách 2: Trên máy khác (Windows)
+<br>Cách 2: Trên máy khác (Windows)
 
-Mở trình duyệt:
+<br>Mở trình duyệt:
 
-http://IP_SERVER
+http://IP_SERVER<br>
 
-👉 Nếu thấy trang “Welcome to nginx” là thành công
+👉 Nếu thấy trang “Welcome to nginx” là thành công<br>
 
 📁 PHẦN 3: HIỂU CẤU TRÚC THƯ MỤC
 Thư mục quan trọng:
@@ -73,14 +73,14 @@ Nội dung:
 
 7. Reload Nginx
 ```sudo systemctl reload nginx```
-🎯 KẾT QUẢ
-Truy cập IP → thấy web bạn tạo
+🎯 KẾT QUẢ<br>
+Truy cập IP → thấy web bạn tạo<br>
 Bạn đã:
-Cài nginx ✅
-Sửa web mặc định ✅
-Tạo website riêng ✅
-⚡ TIP QUAN TRỌNG (rất dễ quên)
-Sửa web → cần reload nginx
+Cài nginx ✅<br>
+Sửa web mặc định ✅<br>
+Tạo website riêng ✅<br>
+⚡ TIP QUAN TRỌNG (rất dễ quên)<br>
+Sửa web → cần reload nginx<br>
 Sai config → dùng:
 ```sudo nginx -t```
 Xem tiến trình:
